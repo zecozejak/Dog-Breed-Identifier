@@ -1,0 +1,24 @@
+# Ignorowanie folderów z obrazami i modelami
+dogImages/
+saved_models/
+testingImg/
+
+# Ignorowanie plików tymczasowych, logów itp.
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignorowanie plików wirtualnego środowiska
+venv/
+.env/
+
+# Ignorowanie plików systemowych
+.DS_Store
+Thumbs.db
+
+# Ignorowanie plików kompilacji Python
+__pycache__/
+*.py[cod]
+*$py.class
